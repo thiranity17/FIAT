@@ -12,7 +12,8 @@ app.use(cors());
 
 
 app.use(cors({
-  origin: 'https://thiranity.xyz/'
+  origin: 'https://thiranity.xyz/',
+  credentials: true
 }));
 
 app.use(bodyParser.json());
