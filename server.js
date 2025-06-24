@@ -9,8 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://fiat-app1.web.app/',
-  credentials: true
+  origin: 'https://thiranity.xyz'
 }));
 
 app.use(bodyParser.json());
