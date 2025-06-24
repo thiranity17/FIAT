@@ -12,7 +12,7 @@ app.use(cors());
 
 
 app.use(cors({
-  origin: 'https://thiranity.xyz/',
+  origin: 'https://fiat-app1.web.app/',
   credentials: true
 }));
 
