@@ -51,7 +51,7 @@ router.post('/submit', async (req, res) => {
       }
     });
 
-    res.status(200).json({ message: '✅ Form submitted and saved successfully!' });
+    res.status(200).json({ message: 'Form submitted and saved successfully!' });
 
   } catch (error) {
     console.error('❌ Internal error in formRoutes.js:', error.message, error.stack);
